@@ -43,7 +43,6 @@ public class VistaLogin extends AppCompatActivity implements View.OnClickListene
             case R.id.btnIngresar:
                 String email = mEtxtEmail.getText().toString().trim();
                 String pass = mEtxtPasword.getText().toString().trim();
-
                 presentadorLogin.signInUser(email, pass);
                 break;
         }
